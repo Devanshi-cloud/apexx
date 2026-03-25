@@ -19,19 +19,19 @@
     }
 
     :root {
-      --bg: #0d0d1a;
-      --surface: #13132a;
-      --card: #1a1a30;
-      --card2: #22223a;
-      --border: #2e2e4a;
-      --border2: #3e3e5a;
+      --bg: #f8fafc;
+      --surface: #ffffff;
+      --card: #f1f5f9;
+      --card2: #e2e8f0;
+      --border: #cbd5e1;
+      --border2: #94a3b8;
       --accent: #7c3aed;
-      --accent-l: #a78bfa;
-      --accent-glow: rgba(124, 58, 237, .25);
-      --text: #f0f0ff;
-      --text2: #c8c8e8;
-      --text3: #9898b8;
-      --text4: #6868a0;
+      --accent-l: #8b5cf6;
+      --accent-glow: rgba(124, 58, 237, .2);
+      --text: #0f172a;
+      --text2: #475569;
+      --text3: #64748b;
+      --text4: #94a3b8;
       --success: #10b981;
       --warn: #f59e0b;
       --danger: #ef4444;
@@ -546,8 +546,8 @@
     }
 
     .inp {
-      background: #111827;
-      border: 1px solid #1e293b;
+      background: var(--card);
+      border: 1px solid var(--border);
       border-radius: 9px;
       padding: 9px 12px;
       font-size: 13px;
@@ -571,7 +571,8 @@
     }
 
     select.inp option {
-      background: #111827
+      background: var(--card);
+      color: var(--text)
     }
 
     textarea.inp {
@@ -875,8 +876,8 @@
     }
 
     .filter-sel {
-      background: #111827;
-      border: 1px solid #1e293b;
+      background: var(--card);
+      border: 1px solid var(--border);
       border-radius: 9px;
       padding: 8px 11px;
       font-size: 12px;
@@ -891,7 +892,8 @@
     }
 
     .filter-sel option {
-      background: #111827
+      background: var(--card);
+      color: var(--text)
     }
 
     .filter-clear {
