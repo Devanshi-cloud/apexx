@@ -6,8 +6,9 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Omaixe — Personal Execution System</title>
   <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   <link
-    href="https://fonts.googleapis.com/css2?family=Syne:wght@600;700;800&family=DM+Sans:opsz,wght@9..40,300;9..40,400;9..40,500;9..40,600&display=swap"
+    href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;600;700&display=swap"
     rel="stylesheet" />
   <script src="https://cdnjs.cloudflare.com/ajax/libs/xlsx/0.18.5/xlsx.full.min.js"></script>
   <style>
@@ -18,26 +19,26 @@
     }
 
     :root {
-      --bg: #f8fafc;
-      --surface: #ffffff;
-      --card: #f1f5f9;
-      --card2: #e2e8f0;
-      --border: #cbd5e1;
-      --border2: #94a3b8;
+      --bg: #0d0d1a;
+      --surface: #13132a;
+      --card: #1a1a30;
+      --card2: #22223a;
+      --border: #2e2e4a;
+      --border2: #3e3e5a;
       --accent: #7c3aed;
-      --accent-l: #8b5cf6;
-      --accent-glow: rgba(124, 58, 237, .2);
-      --text: #0f172a;
-      --text2: #475569;
-      --text3: #64748b;
-      --text4: #94a3b8;
+      --accent-l: #a78bfa;
+      --accent-glow: rgba(124, 58, 237, .25);
+      --text: #f0f0ff;
+      --text2: #c8c8e8;
+      --text3: #9898b8;
+      --text4: #6868a0;
       --success: #10b981;
       --warn: #f59e0b;
       --danger: #ef4444;
       --info: #06b6d4;
       --orange: #f97316;
-      --font-display: 'Syne', sans-serif;
-      --font: 'DM Sans', sans-serif;
+      --font-display: 'Roboto', sans-serif;
+      --font: 'Roboto', sans-serif;
     }
 
     html,
@@ -1767,7 +1768,7 @@
   <div class="page">
     <div class="ph">
       <div class="ph-left">
-        <div class="ph-title">Success Tracker</div>
+        <div class="ph-title">Command Center</div>
         <div class="ph-sub">${new Date().toLocaleDateString('en-IN', { weekday: 'long', day: 'numeric', month: 'long', year: 'numeric' })}</div>
       </div>
       <div class="ph-actions">
